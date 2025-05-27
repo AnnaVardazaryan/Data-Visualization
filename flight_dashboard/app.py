@@ -9,6 +9,8 @@ app = dash.Dash(
     external_stylesheets=[dbc.themes.FLATLY]
 )
 
+server = app.server
+
 app.layout = dbc.Container([
     dbc.NavbarSimple(
         brand="Flight Data Dashboard",
